@@ -1,0 +1,109 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Popins' , sans-serif; 
+}
+.logo {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: #ff0000;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {background-image: url(Images\bg.png);
+  width: 100px;
+ height: 120vh;
+ display: flex;
+ justify-content: left;
+ align-items: center;
+}
+.carte {
+  width: 350px;
+  height: 610px;
+  background-color: rgb(1, 73, 116);
+  border-radius: 10px;
+  box-shadow: 2px 10px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 20px 10px;
+}
+
+.Chaussure {
+  height: 300px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.détails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  
+}
+.détails h2{
+  color: snow;
+  text-align: center;
+  margin-top: 20px;
+}
+.détails h1{
+  color: darkturquoise;
+ transform: translateY(10px);
+}
+.détails p {
+  font-size: 40px;
+  transform: translateY(10px);
+  color: rgb(145, 255, 0);
+}
+.Sneakers {
+  color: rgb(6, 72, 255);
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.couleur {
+  font-size: 20px;
+}
+.Logo {
+width: 200px;
+}
+
+.En-tête {
+  background-color: rgba(132, 167, 37, 0.692);
+  text-align: center;
+  font-size: 30px;
+}
